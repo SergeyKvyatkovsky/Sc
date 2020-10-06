@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestForTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-06T02:08:53" hostname="DESKTOP-85N1P8B" time="5.783">
+  <properties/>
+  <testcase name="TestMethod" classname="TestForTest" time="5.783"/>
+  <system-out><![CDATA[Start
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
