@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suitone">
+    <test name="testing">
+        <groups>
+            <run>
+                <include name="groupOne"/>
+            </run>
+        </groups>
+        <test name="Regression1">
+            <classes>
+                <class name="Tests"/>
+            </classes>
+        </test>
+    </test>
+</suite>
