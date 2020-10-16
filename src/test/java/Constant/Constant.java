@@ -9,5 +9,5 @@ public interface Constant {
     String ENCODING = "utf-8";
     int MAX_TIME_WAIT_FOR_ELEMENT = 15;
     int TIME_FOR_THE_TEST_PASS = 150000;
-    int QUANTITY_ITERATIONS = 3;
+    int QUANTITY_ITERATIONS = 1;
 }
