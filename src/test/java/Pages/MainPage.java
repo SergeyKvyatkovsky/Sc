@@ -1,7 +1,6 @@
 package Pages;
 
 import Utils.UtilsMethods;
-import jdk.jfr.Name;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -9,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.Listeners;
 
 
-@Name("Main Page")
+
 @Listeners
 public class MainPage extends UtilsMethods {
     UtilsMethods utils = new UtilsMethods();
