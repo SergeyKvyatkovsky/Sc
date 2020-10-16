@@ -1,14 +1,14 @@
 package Pages;
 
 import Utils.UtilsMethods;
-import jdk.jfr.Name;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
-@Name("laptop page")
+
 public class PageLapTop extends UtilsMethods{
     public WebDriver driver;
 
@@ -50,6 +50,7 @@ public class PageLapTop extends UtilsMethods{
         Assert.assertEquals(utilsMethods.decodeString("Ноутбуки"),pageTitle.getText());
         utilsMethods.waitElement(driver,utilsMethods.getXpath(filterByCreate.toString()));
         filterByCreate.click();
+        utilsMethods.waitElement(driver,getXpath(pageTitle.toString()));
         Assert.assertEquals(utilsMethods.decodeString("Ноутбуки Lenovo"),pageTitle.getText());
     }
 
