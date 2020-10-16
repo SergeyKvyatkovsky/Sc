@@ -1,4 +1,3 @@
-####################
-# Test for shop.by #
-####################
+#Test for shop.by
 
+#Для запуска на windows просто запустите start_testing.bat
